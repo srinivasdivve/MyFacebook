@@ -1,0 +1,40 @@
+<?php
+
+<html>
+
+<form action="page7.php" method="post" >
+
+Current Email or Phone:<br>
+<input type="text" name="currentno" id="currentno" /><br><br>
+Password:<br>
+<input type="password" name="passwd" id="passwd" /><br><br>
+
+Alternate Phone: <br>
+<input type="text" name="altno" id="altno" />
+<input type="submit" value="Submit" onclick="return validateno()"  />
+
+</form>
+<script>
+function validateno(){
+ 
+var no=document.getElementById("altno").value;
+  //alert(no);
+ var phoneno2 = /^([0-9]{10})$/;
+ var phoneno1=/^([+]{1})+([0-9]{2})+([0-9]{10})$/;
+ 
+ if(phoneno2.test(no)||phoneno1.test(no)){
+ return true;}
+ else{
+ alert("Incorrect Phone Number");
+ event.preventDefault();
+ return false;}
+}
+
+</script>
+
+
+
+
+</html>
+
+?>

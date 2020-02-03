@@ -1,0 +1,81 @@
+#div1 {background-color:#365899;
+      margin:-25px -10px 100px -10px;
+      height:150px;}
+#div1 h1 {float:left;
+         font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+         color:white;
+        margin-left:50px;
+        margin-top:30px;}
+
+#div1 table {float:right;
+            margin-right:250px;}
+#div1 table tr td {  font-family: helvetica, arial, sans-serif;
+                  font-weight:bold;
+                  color:white;}
+#div1 table #tr3 a {color:white;
+                    text-decoration: none;
+     font-family: helvetica, arial, sans-serif;
+                   font-size:13px;
+                    }
+#div1 table #tr3 {position:absolute;
+                  margin-left:250px;
+                  }
+#div1 table #tr3 #submit1 {padding:5px;
+                           color:white;
+                            background-color:#557cc3;
+                            opacity:1;
+                            margin:5px -5px -5px -5px;
+                           
+                         }
+
+
+#a4 #ip1,#ip2,#ip3,#ip4,#ip5 {
+                background-color: #ffff4d;
+                width:250px;
+                padding:10px 5px;
+                border-radius:5px;
+                margin-bottom: 15px;
+          }
+
+#a2 {float:left;
+      margin-top:-100px;}
+#las {
+    margin-left:60px;
+    position:absolute;
+   
+}
+#las p {
+     
+    margin-top:100px;}
+#a4 {float:right;
+     margin-top:-140px;}
+
+
+
+
+#a4 #sel1,#sel2,#sel3   {
+                         position:relative;
+                         }
+
+#a4 #sel1 {padding:3px 5px;
+           }
+#a4 #sel2 {margin-left:-470px;
+           padding:3px 5px; }
+#a4 #sel3 {padding:3px 3px;
+         margin-left:-415px;}
+#ip2{
+    
+    margin-left:-230px;
+    }
+
+#a4  #male {margin-left:-400px;}
+
+#image1 {float:left;}
+
+#a4 #submit2 {padding:8px 4px;
+             background-color:green;
+             color:white;
+            opacity:1;
+             cursor:pointer;}
+
+
